@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Hyvää Paivää!
-date: 2016-12-17T15:04:10.000Z
+date: 2020-09-06T09:37:11.124Z
 description: >-
   Muutama päivä taas touhuttu talkoovoimin kentällä, ja yksi asia kerrallaan
   homma etenee. Uutta suojaa, grillipaikka, pieni mainos kerhotilaan ja uutta
