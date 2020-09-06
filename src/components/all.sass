@@ -31,7 +31,19 @@ $black: #2b2523
 // Helper Classes
 .full-width-image-container
   width: 100vw
-  height: 400px
+  height: 700px
+  position: relative
+  left: 50%
+  right: 50%
+  margin: 2em -50vw
+  background-size: cover
+  background-position: bottom
+  display: flex
+  justify-content: center
+  align-items: center
+.half-width-image-container
+  width: 100vw
+  height: 350px
   position: relative
   left: 50%
   right: 50%
@@ -44,7 +56,16 @@ $black: #2b2523
 
 .full-width-image
     width: 100vw
-    height: 400px
+    height: 600px
+    background-size: cover
+    background-position: bottom
+    display: flex
+    justify-content: center
+    align-items: center
+
+.half-width-image
+    width: 100vw
+    height: 350px
     background-size: cover
     background-position: bottom
     display: flex
@@ -81,7 +102,7 @@ $black: #2b2523
 .navbar-brand .navbar-item.logo
   padding: 0 1rem
 footer.footer
-  padding: 3rem 0rem 0rem
+  padding: 0.5rem 0rem 0rem
   background-color: transparent
 
 //Menu overrides
