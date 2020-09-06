@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "gatsby";
-import github from "../img/github-icon.svg";
+
 import facebook from "../img/social/facebook.svg";
 import instagram from "../img/social/instagram.svg";
-import logo from "../img/airsoft-kokkola-logo.jpg";
+import logo from "../img/airsoft-kokkola-logo.svg";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -47,7 +47,7 @@ const Navbar = class extends React.Component {
               <img
                 src={logo}
                 alt="Airsoft-Kokkola-Logo"
-                style={{ width: "88px" }}
+                style={{ width: "88px", maxHeight: "3rem" }}
               />
             </Link>
             {/* Hamburger menu */}
@@ -55,6 +55,9 @@ const Navbar = class extends React.Component {
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
               data-target="navMenu"
               onClick={() => this.toggleHamburger()}
+              onKeyDown={() => this.toggleHamburger()}
+              role="button"
+              tabIndex={0}
             >
               <span />
               <span />
